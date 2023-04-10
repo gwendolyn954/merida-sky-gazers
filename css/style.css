@@ -10,8 +10,15 @@ body {
     background-image: url('/img/galaxy-night-landscape.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: black;
     font-family: 'Poppins', sans-serif;
+}
+
+.full-pg {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;  
+
 }
 
 .logo {
@@ -33,8 +40,6 @@ body {
 
 main {
     margin: 0 15px; 
-    background: rgba(0, 0, 0, 0.5);
-    height: 100vh;  
 }
 
 h1 {
@@ -61,11 +66,13 @@ input {
     height: 28px;
     width: 150px;
     font-size: 16px;
+    text-align: center;
 }
 
 button {
     width: 95px;
     height: 28px;
+    margin-bottom: 50px;
     background: rgb(216, 213, 43);
     color: rgb(0, 0, 0);
     border: none;
@@ -78,6 +85,11 @@ img {
     padding-bottom: 25px;
     height: 400px;
     width: 400px;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: -275px;
 }
 
 #overview {
@@ -94,16 +106,88 @@ img {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+
 footer h4 {
     color: white;
     text-align: center;
     font-size: 14px;
     font-weight: 200;
-    margin: 25px;
+    margin-top: 350px;
+    padding-bottom: 25px;
+
 }
 
 a {
-    color: rgb(129, 219, 233); ;
+    color: rgb(129, 219, 233); 
 }
 
 
+@media (max-width: 768px) {
+    main {
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 570px) {
+
+    .navbar .container {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar {
+        height: 80px;   
+    }
+
+    main p {
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    main h2 {
+        text-align: justify;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .meeting {
+        font-size: 14px;
+    }
+
+    h1 {
+        padding-top: 5px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    img {
+        height: 275px;
+        width: 275px;
+    }
+
+}
+
+@media (min-width: 730px) {
+    footer h4 {
+        margin-top: 450px;
+        padding-bottom: 25px;
+    }
+
+    h3 {
+        margin-bottom: -375px;
+    }
+
+}
