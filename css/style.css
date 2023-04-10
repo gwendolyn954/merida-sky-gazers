@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/img/galaxy-night-landscape.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+}
+
+.navbar {
+    background: white;
+    height: 50px;
+}
+
+main {
+    margin: 0 15px; 
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;  
+}
+
+h1 {
+    margin: 25px 0;
+    font-weight: 400;
+    color: white;
+    
+}
+
+h2 {
+    color: white;
+    font-weight: 200;
+    margin: 10px 0;
+}
+
+p {
+    color: rgb(129, 219, 233); 
+    font-size: 18px;
+}
+
+input {
+    margin-top: 10px;
+    opacity: 80%;
+    height: 28px;
+    width: 150px;
+    font-size: 16px;
+}
+
+button {
+    width: 95px;
+    height: 28px;
+    background: rgb(216, 213, 43);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    height: 400px;
+    width: 400px;
+}
+
+#overview {
+    padding: 15px;
+    color: black;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 400;
+    background: rgba( 255, 255, 255, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 25px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+footer h4 {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 25px;
+}
+
+a {
+    color: rgb(129, 219, 233); ;
+}
+
+
