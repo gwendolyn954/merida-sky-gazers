@@ -10,8 +10,9 @@
 Welcome to the Mérida Sky Gazers website, your go-to destination for exploring the wonders of space and astronomy!   Users can enter or select a date to view NASA's Astronomy Picture of the Day with a detailed explanation.  
 
 
-## Upcoming Features:
+## Upcoming:
 
--  Making site accessible 
--  Adding page to main MELO site
+- Extending overlay
+- Making site accessible 
+- Adding page to main MELO site
 
