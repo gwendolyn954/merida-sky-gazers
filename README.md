@@ -7,7 +7,7 @@
 
 **Tech used:** HTML, CSS, JavaScript (& NASA API Portal)
 
-Welcome to the Mérida Sky Gazers website, your go-to destination for exploring the wonders of space and astronomy!   Users can enter or select a date to view NASA's Astronomy Picture of the Day, with a detailed explanation describing the photo.  
+A simple landing page for the Mérida Sky Gazers.  Users can enter or select a date to view NASA's Astronomy Picture of the Day, with a detailed explanation describing the photo.  
 
 
 ## Upcoming:
