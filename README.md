@@ -14,6 +14,6 @@ A simple landing page for the Mérida Sky Gazers.  Users can enter or select a d
 
 - Responsiveness
 - Extending overlay
-- Making site accessible 
+- Accessibility
 - Adding page to main MELO site
 
