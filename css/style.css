@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -17,12 +17,14 @@ body {
 
 .full-pg {
     background: rgba(0, 0, 0, 0.5);
-    height: 100vh;  
-
 }
 
 .logo {
     font-size: 24px;
+}
+
+.meeting {
+    font-size: 18px;
 }
 
 .navbar .container {
@@ -34,7 +36,7 @@ body {
 }
 
 .navbar {
-    background: white;
+    background: rgba(228, 223, 223, 0.94);
     height: 50px;
 }
 
@@ -63,7 +65,7 @@ p {
 input {
     margin-top: 10px;
     opacity: 80%;
-    height: 28px;
+    height: 27px;
     width: 150px;
     font-size: 16px;
     text-align: center;
@@ -71,9 +73,9 @@ input {
 
 button {
     width: 95px;
-    height: 28px;
+    height: 26px;
     margin-bottom: 50px;
-    background: rgb(216, 213, 43);
+    background: rgb(129, 219, 233); 
     color: rgb(0, 0, 0);
     border: none;
     font-size: 16px;
@@ -82,6 +84,7 @@ button {
 img {
     display: block;
     margin: 0 auto;
+    max-width: 100%;
     padding-bottom: 25px;
     height: 400px;
     width: 400px;
@@ -97,15 +100,14 @@ h3 {
     color: black;
     text-align: justify;
     line-height: 1.5;
-    font-weight: 400;
-    background: rgba( 255, 255, 255, 0.8 );
+    font-weight: 300;
+    background: rgba( 255, 255, 255, 0.9 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 25px );
     -webkit-backdrop-filter: blur( 10px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-
 
 footer h4 {
     color: white;
@@ -114,6 +116,7 @@ footer h4 {
     font-weight: 200;
     margin-top: 350px;
     padding-bottom: 25px;
+    position: sticky;
 
 }
 
@@ -121,4 +124,66 @@ a {
     color: rgb(129, 219, 233); 
 }
 
+/* Responsiveness */
+
+@media (max-width: 625px){
+    .navbar .container {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar {
+        height: 125px;
+        
+    }
+
+    .logo {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    main {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 359px){
+    .navbar .container {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar {
+        height: 125px;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 22.5px;
+        margin-top: 10px;
+    }
+
+    .meeting {
+        font-size: 18px;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    img {
+        height: 275px;
+        width: 275px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+}
 
