@@ -65,20 +65,22 @@ p {
 input {
     margin-top: 10px;
     opacity: 80%;
-    height: 27px;
+    height: 30px;
     width: 150px;
     font-size: 16px;
     text-align: center;
+    border: none;
 }
 
 button {
     width: 95px;
-    height: 26px;
+    height: 30px;
     margin-bottom: 50px;
     background: rgb(129, 219, 233); 
     color: rgb(0, 0, 0);
     border: none;
     font-size: 16px;
+
 }
 
 img {
@@ -183,6 +185,14 @@ a {
 
     button {
         margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 1280px){
+    .full-pg {
+        background: rgba(0, 0, 0, 0.5);
+        height: 100vh;
     }
 
 }
