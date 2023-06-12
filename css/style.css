@@ -27,6 +27,10 @@ body {
     font-size: 18px;
 }
 
+.meeting:hover {
+    color: rgb(27, 130, 145);
+}
+
 .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -36,7 +40,7 @@ body {
 }
 
 .navbar {
-    background: rgba(228, 223, 223, 0.94);
+    background: rgba(243, 239, 239, 0.94);
     height: 50px;
 }
 
