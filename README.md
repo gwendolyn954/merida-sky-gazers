@@ -5,12 +5,12 @@
 
 ## Overview:
 
-**Tech used:** HTML, CSS, JavaScript (& NASA API Portal)
+Tech used: HTML, CSS, JavaScript (& NASA API Portal)
 
-A simple landing page for the Mérida Sky Gazers.  Users can enter or select a date to view NASA's Astronomy Picture of the Day, with a detailed explanation describing the photo.  
+A simple landing page for Mérida Sky Gazers.  Users can enter or select a date to view NASA's Astronomy Picture of the Day, with a detailed explanation describing the photo.  
 
 
-## Upcoming:
+## Working on:
 
 - Extending overlay
 - Accessibility
