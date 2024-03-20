@@ -35,3 +35,4 @@ function displayImage(){
     let overview = document.getElementById('img')
     overview.style.display = "block";
 }
+
