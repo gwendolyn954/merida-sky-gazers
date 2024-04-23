@@ -13,6 +13,5 @@ A simple landing page for Mérida Sky Gazers.  Users can enter or select a date 
 ## Working on:
 
 - Extending overlay
-- Accessibility
-- Adding page to main MELO site
+- Accessibility testing
 
